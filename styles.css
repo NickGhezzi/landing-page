@@ -78,10 +78,16 @@ a, li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding-left: 300px;
+    padding-right: 300px;
+    color: #1F2937;
 }
 
 .top-section .info{
     margin: 50px;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .box img{
@@ -91,19 +97,43 @@ a, li{
 
 .boxes{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-bottom: 75px;
+    gap: 15px;
 }
 
 .box{
+    gap: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20px;
-    flex: 0 0 0;
 }
 
 
 /* MIDDLE-SECTION */
+
+.middle-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.middle-section .creditor{
+    font-style:normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1f2937;
+    text-align: end;
+}
+
