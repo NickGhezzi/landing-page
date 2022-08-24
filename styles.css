@@ -5,6 +5,11 @@ body{
     margin: 0;
 }
 
+.header, .top-section, .middle-section, .bottom-section, .footer{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
 img{
     width: 300px;
     height: auto;
@@ -34,7 +39,7 @@ a, li{
 
 .top, .bottom{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 8px;
     color: #F9FAF8;
@@ -90,7 +95,7 @@ a, li{
     font-weight: bolder;
 }
 
-.box img{
+.box img, .box div{
     width: 150px;
     height: auto;
 }
@@ -99,7 +104,7 @@ a, li{
     display: flex;
     justify-content: space-between;
     padding-bottom: 75px;
-    gap: 15px;
+    gap: 80px;
 }
 
 .box{
@@ -111,7 +116,6 @@ a, li{
     text-align: center;
 }
 
-
 /* MIDDLE-SECTION */
 
 .middle-section{
@@ -119,9 +123,9 @@ a, li{
     flex-direction: column;
     justify-content: center;
 
-    padding: 100px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 
     background-color: #E5E7EB;
     font-style: italic;
@@ -137,3 +141,44 @@ a, li{
     text-align: end;
 }
 
+
+/* BOTTOM-SECTION */
+
+.bottom-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.message-box{
+    background-color: #3882F6;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 4px;
+    gap: 200px;
+    color: #F9FAF8;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-section .buttons{
+    border-color: #F9FAF8;
+}
+
+
+/* FOOTER */
+
+.footer{
+    background-color: #1F2937;
+    padding: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #E5E7EB;
+}
